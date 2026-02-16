@@ -12,3 +12,4 @@ public class StrategyGame {
         strategy.defend();
     }
 }
+

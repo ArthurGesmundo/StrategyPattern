@@ -6,3 +6,4 @@ public class Archer implements Strategy{
         System.out.println("Dodging to avoid attack!");
     }
 }
+
