@@ -1,4 +1,4 @@
-<h1>Problem scenario:</h1>
+#Problem scenario:
 
 Suppose we have three types of characters in a GameApp:
 
@@ -7,19 +7,18 @@ Suppose we have three types of characters in a GameApp:
 3. Archer: Shoots arrows; uses dodge to to defend
 
 Implement two types of Strategy:
-</br>
-A.  DefenseStrategy</br> 
-     1. Shield</br>
-     2. Dodge</br>
-     3. CreateMagic</br>
-B.  AttackStrategy
-     1.  CastSpell
-     2.  ShootArrow
-     3.  SwingSword  
+
+1. DefenseStrategy 
+	a. Shield
+	b. Dodge
+	c. CreateMagic
+2. AttackStrategy
+	a. CastSpell</br>
+	b. ShootArrow</br>
+    c. SwingSword  </br>
 
 
-<h2>Refactor the existing codes and provide the UML Diagram:</h2>
-<p>
+##Refactor the existing codes and provide the UML Diagram:
 	
 	public class Character {
 	    private String type;
@@ -52,4 +51,3 @@ B.  AttackStrategy
 	    }
 	}
 
-</p>
