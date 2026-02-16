@@ -1,24 +1,24 @@
-#Problem scenario:
+# Problem scenario:
 
 Suppose we have three types of characters in a GameApp:
 
-1. Knight: Attacks with a sword; uses 3 strategies to defend (shield, dodge, magic barrier)
-2. Wizard: Casts spells; uses magic barrier to defend
-3. Archer: Shoots arrows; uses dodge to to defend
+- Knight: Attacks with a sword; uses 3 strategies to defend (shield, dodge, magic barrier)
+- Wizard: Casts spells; uses magic barrier to defend
+- Archer: Shoots arrows; uses dodge to to defend
 
 Implement two types of Strategy:
 
-1. DefenseStrategy 
-	a. Shield
-	b. Dodge
-	c. CreateMagic
-2. AttackStrategy
-	a. CastSpell</br>
-	b. ShootArrow</br>
-    c. SwingSword  </br>
+- DefenseStrategy 
+	- Shield
+	- Dodge
+	- CreateMagic
+- AttackStrategy
+	- CastSpell
+	- ShootArrow
+    - SwingSword
 
 
-##Refactor the existing codes and provide the UML Diagram:
+## Refactor the existing codes and provide the UML Diagram:
 	
 	public class Character {
 	    private String type;
